@@ -1,8 +1,0 @@
-syntax = "proto3";
-service EchoMsg {
-   rpc EchoMsg (RequestMsg) returns (RequestMsg) {}
-}
-
-message RequestMsg {
-   string msg = 1;
-}
